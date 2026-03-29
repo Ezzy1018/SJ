@@ -1,0 +1,72 @@
+:root {
+  --color-bg-base: #090a0e;
+  --color-bg-canvas: #0f1015;
+  --color-bg-elevated: #15171d;
+  --color-surface-base: #15171d;
+  --color-surface-raised: #1d2027;
+  --color-surface-muted: #2a2d35;
+  --color-surface-glass: rgba(61, 64, 74, 0.18);
+
+  --color-text-primary: #f7f7f8;
+  --color-text-secondary: #c9c9ce;
+  --color-text-tertiary: #7d7e89;
+  --color-text-on-accent: #090a0e;
+
+  --color-border-subtle: rgba(233, 233, 238, 0.1);
+  --color-border-default: rgba(233, 233, 238, 0.16);
+  --color-border-strong: rgba(233, 233, 238, 0.24);
+
+  --color-accent-primary: #dba640;
+  --color-accent-hover: #e7b85e;
+  --color-accent-pressed: #c8932d;
+  --color-accent-muted: #a77720;
+  --color-accent-glow: rgba(219, 166, 64, 0.32);
+
+  --color-state-success: #4cc38a;
+  --color-state-warning: #e4a93d;
+  --color-state-error: #df5e5e;
+  --color-state-info: #4a88d9;
+  --color-focus-ring: #f0cc82;
+
+  --font-display: "Canela", "Times New Roman", serif;
+  --font-ui: "Suisse Intl", "Avenir Next", "Segoe UI", sans-serif;
+
+  --text-display-lg-size: 44px;
+  --text-display-lg-line: 52px;
+  --text-title-md-size: 24px;
+  --text-title-md-line: 30px;
+  --text-heading-md-size: 18px;
+  --text-heading-md-line: 24px;
+  --text-body-md-size: 14px;
+  --text-body-md-line: 20px;
+  --text-caption-size: 12px;
+  --text-caption-line: 16px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  --radius-xs: 8px;
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+
+  --elevation-1: 0 4px 12px rgba(0, 0, 0, 0.35);
+  --elevation-2: 0 10px 24px rgba(0, 0, 0, 0.42);
+  --elevation-3: 0 16px 36px rgba(0, 0, 0, 0.5);
+  --elevation-gold-glow:
+    0 0 0 1px rgba(219, 166, 64, 0.35), 0 0 24px rgba(219, 166, 64, 0.22);
+
+  --motion-fast: 160ms;
+  --motion-standard: 220ms;
+  --motion-slow: 320ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-decelerate: cubic-bezier(0.05, 0.7, 0.1, 1);
+  --ease-spring-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}

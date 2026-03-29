@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "name": "premium-dark-gold",
+    "version": "0.1.0",
+    "platform": "mobile-first"
+  },
+  "color": {
+    "primitive": {
+      "neutral": {
+        "0": "#FFFFFF",
+        "50": "#F7F7F8",
+        "100": "#E8E8EA",
+        "200": "#C9C9CE",
+        "300": "#A9A9B1",
+        "400": "#7D7E89",
+        "500": "#5A5C68",
+        "600": "#3D404A",
+        "700": "#2A2D35",
+        "800": "#1D2027",
+        "900": "#15171D",
+        "950": "#0F1015",
+        "1000": "#090A0E"
+      },
+      "gold": {
+        "100": "#FFF2D6",
+        "200": "#F8E0AB",
+        "300": "#F0CC82",
+        "400": "#E7B85E",
+        "500": "#DBA640",
+        "600": "#C8932D",
+        "700": "#A77720",
+        "800": "#7D5918",
+        "900": "#5C4012"
+      },
+      "success": {
+        "500": "#4CC38A"
+      },
+      "warning": {
+        "500": "#E4A93D"
+      },
+      "error": {
+        "500": "#DF5E5E"
+      },
+      "info": {
+        "500": "#4A88D9"
+      }
+    },
+    "semantic": {
+      "bg": {
+        "base": "{color.primitive.neutral.1000}",
+        "canvas": "{color.primitive.neutral.950}",
+        "elevated": "{color.primitive.neutral.900}",
+        "overlay": "rgba(9, 10, 14, 0.72)"
+      },
+      "surface": {
+        "base": "{color.primitive.neutral.900}",
+        "raised": "{color.primitive.neutral.800}",
+        "muted": "{color.primitive.neutral.700}",
+        "glass": "rgba(61, 64, 74, 0.18)"
+      },
+      "text": {
+        "primary": "{color.primitive.neutral.50}",
+        "secondary": "{color.primitive.neutral.200}",
+        "tertiary": "{color.primitive.neutral.400}",
+        "inverse": "{color.primitive.neutral.1000}",
+        "onAccent": "{color.primitive.neutral.1000}"
+      },
+      "border": {
+        "subtle": "rgba(233, 233, 238, 0.10)",
+        "default": "rgba(233, 233, 238, 0.16)",
+        "strong": "rgba(233, 233, 238, 0.24)"
+      },
+      "accent": {
+        "primary": "{color.primitive.gold.500}",
+        "hover": "{color.primitive.gold.400}",
+        "pressed": "{color.primitive.gold.600}",
+        "muted": "{color.primitive.gold.700}",
+        "glow": "rgba(219, 166, 64, 0.32)"
+      },
+      "state": {
+        "success": "{color.primitive.success.500}",
+        "warning": "{color.primitive.warning.500}",
+        "error": "{color.primitive.error.500}",
+        "info": "{color.primitive.info.500}"
+      },
+      "focus": {
+        "ring": "#F0CC82"
+      },
+      "chart": {
+        "primary": "{color.semantic.accent.primary}",
+        "series2": "#8EA7C7",
+        "series3": "#73B2A2",
+        "grid": "rgba(233, 233, 238, 0.14)"
+      }
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "display": "Canela",
+      "ui": "Suisse Intl"
+    },
+    "size": {
+      "displayLg": 44,
+      "displayMd": 36,
+      "titleLg": 30,
+      "titleMd": 24,
+      "headingLg": 20,
+      "headingMd": 18,
+      "bodyLg": 16,
+      "bodyMd": 14,
+      "caption": 12,
+      "micro": 11
+    },
+    "lineHeight": {
+      "displayLg": 52,
+      "displayMd": 42,
+      "titleLg": 36,
+      "titleMd": 30,
+      "headingLg": 28,
+      "headingMd": 24,
+      "bodyLg": 24,
+      "bodyMd": 20,
+      "caption": 16,
+      "micro": 14
+    },
+    "letterSpacing": {
+      "tight": -0.4,
+      "normal": 0,
+      "wide": 0.4,
+      "eyebrow": 1.2
+    },
+    "weight": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    }
+  },
+  "spacing": {
+    "0": 0,
+    "1": 4,
+    "2": 8,
+    "3": 12,
+    "4": 16,
+    "5": 20,
+    "6": 24,
+    "7": 28,
+    "8": 32,
+    "10": 40,
+    "12": 48,
+    "14": 56,
+    "16": 64
+  },
+  "radius": {
+    "xs": 8,
+    "sm": 12,
+    "md": 16,
+    "lg": 24,
+    "pill": 999
+  },
+  "border": {
+    "thin": 1,
+    "thick": 2
+  },
+  "size": {
+    "iconSm": 16,
+    "iconMd": 20,
+    "iconLg": 24,
+    "touchMinIos": 44,
+    "touchMinAndroid": 48,
+    "fab": 56,
+    "tabBarHeight": 72,
+    "appBarHeight": 56
+  },
+  "elevation": {
+    "level1": "0 4px 12px rgba(0, 0, 0, 0.35)",
+    "level2": "0 10px 24px rgba(0, 0, 0, 0.42)",
+    "level3": "0 16px 36px rgba(0, 0, 0, 0.5)",
+    "goldGlow": "0 0 0 1px rgba(219, 166, 64, 0.35), 0 0 24px rgba(219, 166, 64, 0.22)"
+  },
+  "opacity": {
+    "disabled": 0.42,
+    "hoverOverlay": 0.08,
+    "pressedOverlay": 0.14,
+    "focusRing": 0.9
+  }
+}

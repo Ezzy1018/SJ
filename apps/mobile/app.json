@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Shakuntala Gold",
+    "slug": "shakuntala-gold",
+    "scheme": "sjgold",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "bundleIdentifier": "com.shakuntalajewellers.gold"
+    },
+    "android": {
+      "package": "com.shakuntalajewellers.gold"
+    }
+  }
+}

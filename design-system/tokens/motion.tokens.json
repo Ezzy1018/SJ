@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "name": "premium-dark-gold-motion",
+    "version": "0.1.0"
+  },
+  "duration": {
+    "instant": 80,
+    "fast": 160,
+    "standard": 220,
+    "slow": 320,
+    "hero": 380
+  },
+  "easing": {
+    "standard": "cubic-bezier(0.2, 0, 0, 1)",
+    "decelerate": "cubic-bezier(0.05, 0.7, 0.1, 1)",
+    "accelerate": "cubic-bezier(0.3, 0, 1, 1)",
+    "springSoft": "cubic-bezier(0.22, 1, 0.36, 1)"
+  },
+  "component": {
+    "buttonPress": {
+      "duration": "{duration.fast}",
+      "easing": "{easing.standard}",
+      "scaleTo": 0.98
+    },
+    "tabIndicator": {
+      "duration": "{duration.standard}",
+      "easing": "{easing.decelerate}"
+    },
+    "cardLift": {
+      "duration": "{duration.standard}",
+      "easing": "{easing.springSoft}",
+      "translateY": -2
+    },
+    "kpiCount": {
+      "duration": "{duration.slow}",
+      "easing": "{easing.decelerate}"
+    },
+    "progressRing": {
+      "duration": "{duration.hero}",
+      "easing": "{easing.decelerate}"
+    }
+  },
+  "haptics": {
+    "selection": "light",
+    "confirm": "medium",
+    "critical": "heavy"
+  }
+}
