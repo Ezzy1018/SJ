@@ -40,3 +40,14 @@ export const deleteAlertForUser = (
   alertStore.splice(index, 1);
   return true;
 };
+
+  export const deleteAlertsForUser = (userId: string): number => {
+    const before = alertStore.length;
+    for (let i = alertStore.length - 1; i >= 0; i -= 1) {
+      if (alertStore[i].userId === userId) {
+        alertStore.splice(i, 1);
+      }
+    }
+
+    return before - alertStore.length;
+  };

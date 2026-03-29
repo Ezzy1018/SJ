@@ -118,3 +118,7 @@ export const verifyOtp = (
     },
   };
 };
+
+export const deletePendingUser = (requestId: string): boolean => {
+  return pendingUsers.delete(requestId);
+};

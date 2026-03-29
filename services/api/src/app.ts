@@ -5,6 +5,7 @@ import pricesRouter from "./routes/prices-route";
 import alertsRouter from "./routes/alerts-route";
 import calculatorRouter from "./routes/calculator-route";
 import authRouter from "./routes/auth-route";
+import usersRouter from "./routes/users-route";
 import { errorHandler, notFoundHandler } from "./middleware/error-handler";
 import { forceHttps } from "./middleware/https";
 import { globalRateLimiter } from "./middleware/rate-limit";
@@ -62,6 +63,7 @@ app.use("/api/prices", pricesRouter);
 app.use("/api/alerts", alertsRouter);
 app.use("/api/calculator", calculatorRouter);
 app.use("/api/auth", authRouter);
+app.use("/api/users", usersRouter);
 
 app.use(notFoundHandler);
 app.use(errorHandler);
